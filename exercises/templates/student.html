@@ -2,9 +2,14 @@
 <html>
 <head>
     <title>Student</title>
-	<link rel="stylesheet" type="text/css" href="">
+    <link rel="stylesheet" type="text/css" href="">
+
 </head>
 <body>
-    <h1>This is the page for the student with id {{ student_id }}.</h1>
+    <h1>
+        This is the page for the student with id {{ student_id }}.
+    </h1>
+    <a href="{{ url_for('home') }}"> Back to home </a>
+
 </body>
 </html>
